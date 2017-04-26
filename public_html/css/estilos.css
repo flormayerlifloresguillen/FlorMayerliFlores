@@ -1,0 +1,135 @@
+*{
+    margin: auto;
+    padding: 0;
+}
+.featured {
+    background-image: url("../imagenes/html55.jpg");
+    width: 95%;
+    height: 500px;
+}
+.active {
+    background-image: url("images/html5.jpg");
+}
+menu{
+    background-image:  url("../imagenes/logo2.png");
+    width: 70%;
+    height: 100px;
+}
+footer{
+    padding: 1em 3em;
+    margin: 1em 25%;
+    width: 200px;
+    margin: 0 auto;
+}   
+
+@font-face {
+    font-family: 'KreonBold';
+    src: url('../fonts/kreon-bold-webfont.eot');
+    src: url('../fonts/kreon-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/kreon-bold-webfont.woff') format('woff'),
+    url('../fonts/kreon-bold-webfont.ttf') format('truetype'),
+    url('../fonts/kreon-bold-webfont.svg#KreonBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'kreonlight';
+    src: url('../fonts/kreon-light-webfont.eot');
+    src: url('../fonts/kreon-light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/kreon-light-webfont.woff') format('woff'),
+    url('../fonts/kreon-light-webfont.ttf') format('truetype'),
+    url('../fonts/kreon-light-webfont.svg#kreonlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.menu {
+    padding: 1em 3em;
+    margin: 1em 25%;
+    width: 200px;
+    margin: 0 auto;
+}
+font-face {
+    font-family: "Kimberley";
+    src: url(/fonts/kimberley.ttf) format("truetype");
+}
+#caja{
+    width: 70%;
+    height: 50%;
+   background-attachment: fixed;
+}
+h1{
+    color: #33ff66;
+    font-size: 3em;
+    font-family: kimberley;
+}
+img{
+     width:100%;
+     background-attachment: fixed;
+}
+
+
+body{
+  font-family: "Open Sans",  Impact;
+  background-image: url("imagenes/fondo.png");
+  background:white;
+  margin:50px;
+  background: #deebf2 url(http://www.midominio.com/images/textura.jpg) repeat;
+}
+.area{
+  text-align:center;
+  font-size:6.5em;
+  color: #ff99ff;
+  letter-spacing: -7px;
+  font-weight:700;
+  text-transform:uppercase;
+  animation:blur .75s ease-out infinite;
+  text-shadow:0px 0px 5px #fff,0px 0px 7px #fff;
+  background: black;
+  text-align: center;
+  font-family: fantasy;
+}@keyframes blur{
+  from{
+      text-shadow: 0px 0px 10px #fff,
+      0px 0px 10px #fff, 
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #7B96B8,
+      0px 0px 150px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px -10px 100px #7B96B8,
+      0px -10px 100px #7B96B8;}
+}
+@keyframes stroke-offset {
+  50% {
+    stroke-dashoffset: $stroke-step * $max;  
+    stroke-dasharray: 0 $stroke-step * $max*2.5;
+  }
+}
+
+@media only screen and ( max-width: 1024px ) {
+    #caja{
+        background: #3333ff;
+        
+    }
+}
+  
+@media only screen and ( max-width: 768px ) {	
+    #caja{
+        background: #cc33ff;
+    }
+    h1{
+        font-family: arial;
+        font-size: 2em;
+    }
+}
